@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Band members</h1>
+
+<div id="band_members">
+  <% @band_members.each do |band_member| %>
+    <%= render band_member %>
+    <p>
+      <%= link_to "Show this band member", band_member %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New band member", new_band_member_path %>
