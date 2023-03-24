@@ -43,6 +43,11 @@
    color: white;
 }
 
+.page-section{
+   max-width: 500px;
+   background-color: red;
+   margin-left: auto;
+}
 
 
 .hero_image{
